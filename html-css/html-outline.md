@@ -45,19 +45,22 @@ You can nest elements within each other.
 ### rich web pages
 - a
   - href
-  - can link to somewhere on the web
-  - can link to somewhere in the local file system, relative to the location
+  - can link to somewhere on the web, aka **absolute**
+  - can link to somewhere in the local file system, **relative** to the location
   - anchor links
   - email links
   - title attribute
   - target attribute
-- button
-- script
+- img
   - src
-- image
-  - src
+    - can be relative or absolute
+  - alt (this is for screen readers and shown if the link fails)
+  - title (not read by screen readers)
 - forms
   - input
+  - button
+- script
+  - src
 
 ## layout / semantic html
 https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML
